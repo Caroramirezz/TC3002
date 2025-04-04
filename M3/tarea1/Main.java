@@ -7,8 +7,8 @@
 public class Main {
     public static void main(String[] args) {
         
-        
-        // Casos de uno para Stack
+
+        // Casos de uso para Stack
         System.out.println("\n*** STACK DEMO ***");
         Stacky<Integer> stack = new Stacky<>();
 
@@ -27,7 +27,7 @@ public class Main {
         System.out.println("Is stack empty? " + stack.isEmpty());
 
         
-        // Casos de uno para Queue
+        // Casos de uso para Queue
         System.out.println("\n*** QUEUE DEMO ***");
         Queubole<String> queue = new Queubole<>();
         
@@ -46,7 +46,7 @@ public class Main {
         System.out.println("Is queue empty? " + queue.isEmpty());
 
 
-        // Casos de uno para Tabla Hash
+        // Casos de uso para Tabla Hash
         System.out.println("\n*** HASH DEMO ***");
         Hashy<String, Integer> hash = new Hashy<>();
 
